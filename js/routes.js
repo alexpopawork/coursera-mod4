@@ -20,4 +20,9 @@
 		});
 	});
 	
+	CategoriesController.$inject = ["MenuDataService"];
+	function CategoriesController(MenuDataService){
+		
+	}
+	
 })();
