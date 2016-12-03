@@ -11,7 +11,7 @@
 	});
 	
 	function CategoriesController1(){
-		this = this;
+		var vm = this;
 	};
 	
 })();
