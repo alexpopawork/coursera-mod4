@@ -5,7 +5,7 @@
 		templateUrl: "templates/categories.template.html",
 		controller: CategoriesController1,
 		controllerAs: "ctrl",
-		binding: {
+		bindings: {
 			categoriesData: "<"
 		}
 	});
