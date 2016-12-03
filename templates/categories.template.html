@@ -3,6 +3,6 @@
     <li>Categories</li>
 </ul>
 
-<li ng-repeat="category in ctrl.categories.data">
+<li ng-repeat="category in categories">
 	<a ui-sref="items({categoryId: category.short_name})">{{category.name}}</a>
 </li>

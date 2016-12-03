@@ -15,7 +15,7 @@
 		//Categories state
 		.state("categories", {
 			url: "/categories",
-			templateUrl: "templates/categories.template.html",
+			templateUrl: "templates/categories.html",
 			controller: "CategoriesController as ctrl",
 			resolve: {
 				categories: ['MenuDataService', function (MenuDataService) {
