@@ -5,7 +5,7 @@
 		templateUrl: "items.html",
 		controller: ItemsController,
 		binding: {
-			categories: "<"
+			items: "<"
 		}
 	});
 	
