@@ -22,7 +22,7 @@
 					return MenuDataService.getAllCategories();
 				}]
 			}
-		});
+		})
 		
 		//Items from category 
 		.state("items", {
