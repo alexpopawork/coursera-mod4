@@ -2,10 +2,14 @@
 	
 	angular.module("MenuApp")
 	.component("items", {
-		templateUrl: "items.html",
-		binding: {
+		templateUrl: "templates/items.template.html",
+		controller: ItemsController,
+		controllerAs: "ctrl",
+		bindings: {
 			items: "<"
 		}
 	});
+	
+	function ItemsController(){};
 	
 })();
