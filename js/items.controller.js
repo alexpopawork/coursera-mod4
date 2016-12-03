@@ -6,7 +6,7 @@
 	ItemsController.$inject = ["MenuDataService", "items"];
 	function ItemsController(MenuDataService, items){
 		this.items = items;
-		console.log(items);
+		console.log(items.data.menu_items);
 	};
 	
 })();
