@@ -10,6 +10,8 @@
 		}
 	});
 	
-	function CategoriesController1(){};
+	function CategoriesController1(){
+		this = this;
+	};
 	
 })();
