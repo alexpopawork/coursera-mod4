@@ -2,7 +2,7 @@
     <li><a ui-sref="home">Home</a></li>
     <li>Categories</li>
 </ul>
-
+{{categoriesData}}
 <li ng-repeat="category in categoriesData">
 	<a ui-sref="items({categoryId: category.short_name})">{{category.name}}</a>
 </li>
