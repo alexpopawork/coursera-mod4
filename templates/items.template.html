@@ -1,3 +1,9 @@
+<nav class="breadcrumb">
+  <a class="breadcrumb-item" ui-sref="home">Home</a>
+  <a class="breadcrumb-item" ui-sref="categories">Home</a>
+  <a class="breadcrumb-item active">{{ctrl.items.data.category.name}}</a>
+</nav>
+
 <li ng-repeat="item in ctrl.items.data.menu_items">
 	{{item.name}}
 </li>
