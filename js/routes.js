@@ -16,7 +16,12 @@
 		.state("categories", {
 			url: "/categories",
 			templateUrl: "templates/categories.template.html",
-			controller: "CategoriesController as categories"
+			controller: "CategoriesController",
+			resolve: {
+				categories: ['MenuDataService', function (MenuDataService) {
+					return MenuDataService.getAllCategories();
+				}]
+			}
 		});
 	});
 	
