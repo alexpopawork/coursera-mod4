@@ -6,7 +6,7 @@
 		controller: CategoriesController1,
 		controllerAs: "ctrl",
 		bindings: {
-			categoriesData: "<"
+			categories: "<"
 		}
 	});
 	
