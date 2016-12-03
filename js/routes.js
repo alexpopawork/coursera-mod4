@@ -19,7 +19,7 @@
 			resolve: {
 				categories: ['MenuDataService', function (MenuDataService) {
 					return MenuDataService.getAllCategories().then(function(result){
-						console.log(result);
+						return result;
 					});
 				}]
 			}
