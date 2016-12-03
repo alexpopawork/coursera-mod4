@@ -9,6 +9,6 @@
 		}
 	});
 	
-	function CategoriesController(){};
+	function CategoriesController1(){};
 	
 })();
