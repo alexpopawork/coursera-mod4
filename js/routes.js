@@ -9,7 +9,7 @@
 		//Home state
 		.state("home", {
 			url: "/",
-			templateUrl: "templates/home.html"
+			templateUrl: "templates/home.template.html"
 		})
 		
 		//Categories state
