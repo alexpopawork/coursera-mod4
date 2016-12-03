@@ -9,9 +9,4 @@
 		}
 	});
 	
-	
-	function CategoriesController(){
-		
-	};
-	
 })();
