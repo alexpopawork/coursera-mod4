@@ -11,6 +11,8 @@
 		}
 	});
 	
-	function ItemsController(){};
+	function ItemsController(){
+		var vm = this;
+	};
 	
 })();
