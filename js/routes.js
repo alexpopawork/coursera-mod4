@@ -16,7 +16,6 @@
 		.state("categories", {
 			url: "/categories",
 			templateUrl: "templates/categories.template.html",
-			controller: "CategoriesController",
 			resolve: {
 				categories: ['MenuDataService', function (MenuDataService) {
 					return MenuDataService.getAllCategories();
