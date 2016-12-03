@@ -23,6 +23,18 @@
 				}]
 			}
 		});
+		
+		//Items from category 
+		.state("items", {
+			url: "/items/{categoryId}",
+			templateUrl: "templates/items.template.html",
+			controller: "ItemsController as ctrl",
+			resolve: {
+				items: ['MenuDataService', function (MenuDataService) {
+					return MenuDataService.getItemsForCategory($stateParams.categoryId);
+				}]
+			}
+		});
 	});
 	
 })();
