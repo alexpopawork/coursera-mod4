@@ -30,7 +30,7 @@
 			templateUrl: "templates/items.template.html",
 			controller: "ItemsController as ctrl",
 			resolve: {
-				items: ['$stateParams', 'MenuDataService', function (MenuDataService) {
+				items: ['$stateParams', 'MenuDataService', function ($stateParams, MenuDataService) {
 					return MenuDataService.getItemsForCategory($stateParams.categoryId);
 				}]
 			}
