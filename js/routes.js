@@ -15,7 +15,7 @@
 		//Categories state
 		.state("categories", {
 			url: "/categories",
-			templateUrl: "templates/categories.html",
+			templateUrl: "templates/categories.template.html",
 			controller: "CategoriesController as categories"
 		});
 	});
