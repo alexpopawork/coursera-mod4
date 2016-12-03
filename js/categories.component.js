@@ -3,7 +3,7 @@
 	angular.module("MenuApp")
 	.component("categories", {
 		templateUrl: "templates/categories.template.html",
-		controller: "CategoriesController as ctrl",
+		controller: "CategoriesController1 as ctrl",
 		binding: {
 			categoriesData: "<"
 		}
