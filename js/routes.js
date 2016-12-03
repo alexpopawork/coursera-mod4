@@ -19,9 +19,7 @@
 			controller: "CategoriesController as ctrl",
 			resolve: {
 				categories: ['MenuDataService', function (MenuDataService) {
-					return MenuDataService.getAllCategories().then(function(result){
-						return result;
-					});
+					return MenuDataService.getAllCategories();
 				}]
 			}
 		});
