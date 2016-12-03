@@ -18,15 +18,12 @@
 			templateUrl: "templates/categories.template.html",
 			resolve: {
 				categories: ['MenuDataService', function (MenuDataService) {
-					return MenuDataService.getAllCategories();
+					return MenuDataService.getAllCategories().then(function(){
+						console.log("aa");
+					});
 				}]
 			}
 		});
 	});
-	
-	CategoriesController.$inject = ["MenuDataService"];
-	function CategoriesController(MenuDataService){
-		
-	}
 	
 })();
