@@ -1,11 +1,7 @@
 (function(){
 	
-	angular.module("MenuApp")
-	.config(RoutesConfig);
-	
-	RoutesConfig.$inject("$stateProvider", "$urlRouterProvider");
-	function RoutesConfig($stateProvider, $urlRouterProvider){
-		
+	var mod = angular.module("MenuApp");
+	mod.config(function($stateProvider, $urlRouterProvider){
 		$urlRouterProvider.otherwise("/");
 		
 		$stateProvider
@@ -22,6 +18,6 @@
 			templateUrl: "templates/categories.html",
 			controller: "CategoriesController as categories"
 		});
-	}
+	});
 	
 })();
