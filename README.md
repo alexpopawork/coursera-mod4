@@ -1,1 +1,2 @@
-# coursera-mod3
+# coursera-mod4
+Restaurant menu with categories
